@@ -308,21 +308,23 @@ p {
 .item-work {
   position: relative;
 }
-.minioverlay {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
-  background: rgba(47, 48, 58, 0.8);
-}
+
 .minioverlay-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--background-color);
+   position: absolute;
+  bottom: 0;
+  width: 100%; 
+  font-weight: 700;  
+  line-height: 1.14; 
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;   
+  color: var(--background-color);  
+  background: rgba(47, 48, 58, 0.8);
+  
+
+
 }
 
 /* section4 */
